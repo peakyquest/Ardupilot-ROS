@@ -1,8 +1,8 @@
-## Iris_Gazebo 
+## Iris_Controller
 
 This ROS package provides essential functionality for controlling a copter's flight mode, executing basic flight operations, and conducting waypoint missions.
 
-**mode.py**: This file enables users to get or set the flight mode of the copter. It contains functions to interface with the flight mode of the copter, allowing seamless integration into your ROS project.
+**flight_mode.py**: This file enables users to get or set the flight mode of the copter. It contains functions to interface with the flight mode of the copter, allowing seamless integration into your ROS project.
 
 **flight_task_control.py**: This file contains necessary basic flight operations. It includes functions for takeoff, landing, hovering, and other fundamental flight tasks. It serves as a foundational component for controlling the copter's flight behavior.
 
