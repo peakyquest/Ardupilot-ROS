@@ -56,6 +56,32 @@ class Failsafe:
         self.parameter.set_param(Parameters.PARAM_SIM_RC_FAIL, 0, 0) # Simulate whether the radio failsafe is working or not
 
 
+    def action_low_battery_fs(self):
+        # 0 Disabled/NoAction
+        # 1 Land
+        # 2 RTL
+        # 3 SmartRTL or RTL
+        # 4 SmartRTL or Land
+        # 5 Terminate
+        # 6 Auto DO_LAND_START or RTL
+        self.parameter.set_param(Parameters.PARAM_BATT_FS_LOW_ACT, 2, 0) # vehicle perform the given action if it hits a low battery failsafe.
+
+    
+
+    def action_crt_low_battery_fs(self):
+        # 0 Disabled/NoAction
+        # 1 Land
+        # 2 RTL
+        # 3 SmartRTL or RTL
+        # 4 SmartRTL or Land
+        # 5 Terminate
+        # 6 Auto DO_LAND_START or RTL
+        self.parameter.set_param(Parameters.PARAM_BATT_FS_CRT_ACT, 2, 0) # vehicle perform the given action if it hits a low battery failsafe.
+
+        
+        
+
+
 
 
 
