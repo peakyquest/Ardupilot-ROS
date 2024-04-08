@@ -30,6 +30,8 @@ class Parameters:
     PARAM_FS_THR_ENABLE = 'FS_THR_ENABLE'  # The throttle failsafe allows you to configure a software failsafe activated by a setting on the throttle input channel
     PARAM_BATT_CRT_VOLT = 'BATT_CRT_VOLT'  # Battery voltage that triggers a critical battery failsafe.
     PARAM_BATT_LOW_VOLT = 'BATT_LOW_VOLT'  # Battery voltage that triggers a low battery failsafe.
+    PARAM_SIM_RC_FAIL = 'SIM_RC_FAIL'      # To Simulate Radio Failsafe
+    
 
     # AUTO MODE
-    PARAM_AUTO_OPTIONS = 'AUTO_OPTIONS'
+    PARAM_AUTO_OPTIONS = 'AUTO_OPTIONS'   # Allow Copter to arm or takeoff in the auto mode. 

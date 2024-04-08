@@ -51,4 +51,5 @@ class Param:
 if __name__ == '__main__':
     rospy.init_node("param_node", anonymous=True)
     param = Param()
-    result = param.get_param(Parameters.PARAM_RTL_ALT)
+    result = param.get_param(Parameters.PARAM_FS_GCS_ENABLE)
+    rospy.spin()
