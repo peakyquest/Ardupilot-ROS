@@ -78,14 +78,6 @@ class Failsafe:
         # 6 Auto DO_LAND_START or RTL
         self.parameter.set_param(Parameters.PARAM_BATT_FS_CRT_ACT, 2, 0) # vehicle perform the given action if it hits a low battery failsafe.
 
-        
-        
-
-
-
-
-
-
 # Example Usage
 def main():
     rospy.init_node('failsafe', anonymous= True)
