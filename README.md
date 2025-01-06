@@ -26,3 +26,13 @@ The iris_gazebo package provides simulation capabilities for the Iris quadcopter
 The iris_controller package enables you to control the Iris drone using MAVROS. It contains controllers and scripts to send commands to the Iris drone through MAVLink protocol, allowing for various flight operations and maneuvers.
 
 
+## Table of Products
+
+| **Product**                                      | **Price**  | **Buy Here**                                                                                                           |
+|--------------------------------------------------|------------|------------------------------------------------------------------------------------------------------------------------|
+| Pixhawk Flight Controller PX4 2.4.8              | 31,500 PKR | [Pixhawk Flight Controller](https://electrobes.com/product/pixhawk-flight-controller-px4-2-4-8-for-fpv-and-quadcopter/)   |
+| M8N High Precision GPS                           | 6,800 PKR  | [M8N GPS](https://electrobes.com/product/ublox-neo-m8n-high-precision-gps-with-compass-for-apm-px4/)                    |
+| Anti Vibration FC Mount                          | 500 PKR    | [Anti Vibration Mount](https://electrobes.com/product/anti-vibration-fc-mount-shock-absorber-damping-plate-for-quadcopter/)|
+| F450 Quadcopter MultiCopter Frame Kit            | 3,300 PKR  | [Quadcopter Frame](https://electrobes.com/product/f450-quadcopter-multicopter-frame-kit-w-black-skid-high-chassis/)      |
+| 4 Brushless Motors & 4 ESC 30AMP                 | 9,600 PKR  | [Brushless Motors and ESC](https://www.smarthobby.pk/product-page/2212-1000kv-4-brushless-motors-4-esc-30amp)            |
+
